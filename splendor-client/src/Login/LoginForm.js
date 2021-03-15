@@ -41,7 +41,7 @@ class LoginTab extends React.Component {
                             <TextField id="username" label="아이디" type="email" margin="normal" variant="outlined" autoFocus required  
                             InputProps={{
                                 classes: {notchedOutline: classes.notchedOutline}
-                            }} style={{ "min-height": "60px", width: "80%", align: "center" }}/>
+                            }} style={{ "min-height": "60px", width: "80%", align: "center", fontFamily: '"Roboto"' }}/>
                         </Grid>
                     </Grid>
                     <Grid container spacing={2} align="center" alignItems="flex-end">
